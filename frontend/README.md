@@ -1,0 +1,1 @@
+This is a simple react project showing authentication, dealing with tokens and various ways to interact with a react backend and frontend while using routes.
