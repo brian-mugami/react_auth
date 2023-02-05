@@ -27,7 +27,6 @@ export function getAuthToken(){
 export function tokenLoader(){
     return getAuthToken()
 }
-
 export function checkToken(){
     const token = getAuthToken()
     if (!token){

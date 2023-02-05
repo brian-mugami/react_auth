@@ -105,10 +105,10 @@ export async function action({ request, params }) {
 
   const response = await fetch(url, {
     method: method,
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': "Bearer " + token
-    },
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': "Bearer " + token
+      },
     body: JSON.stringify(eventData),
   });
 

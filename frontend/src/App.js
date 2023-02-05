@@ -5,7 +5,6 @@ import ErrorPage from './pages/Error';
 import EventDetailPage, {
   loader as eventDetailLoader,
   action as deleteEventAction,
-  loader,
 } from './pages/EventDetail';
 import EventsPage, { loader as eventsLoader } from './pages/Events';
 import EventsRootLayout from './pages/EventsRoot';

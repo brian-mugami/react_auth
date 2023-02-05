@@ -34,7 +34,7 @@ export async function action ({request}){
 
   if(response.status === 422 || response.status === 401){
     return response
-  }
+  } 
 
   if (!response.ok){
     throw json ({message:"Could not authenticate user"}, {status: 500})
